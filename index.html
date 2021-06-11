@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.83.1">
+  <title>The Concepts</title>
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbar-fixed/">
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+
+
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap core CSS -->
+  <link href="bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+    @media (max-width: 1280px) {
+      .box2 .content{
+        width: 70vw;
+      }
+      .overview p{
+        font-size: small;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+    @media (max-width: 768px) {
+      .box2 .content{
+        width: 80vw;
+        
+      }
+      .client{
+        margin-top: 50px;
+        margin-left: 346px;
+      }
+      .rcon{
+        margin-top: 105px;
+      }
+      .url{
+        margin-left: 346px;
+      }
+    }
+    @media (max-width: 598px) {
+      .overview p{
+        font-size: small;
+      }
+    }
+     
+    @media (max-width: 520px){
+      .box2 .content{
+        width: 98vw;
+        height: 85vh;
+      }
+      .overview p{
+        font-size: x-small;
+      }
+      .client{
+        margin-left: 175px;
+        margin-top: 50px;
+      }
+      .url{
+        margin-left: 150px;
+      }
+      .bag{
+        height: 90px;
+      }
+    }
+  </style>
+
+
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">LOGO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+           
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Concepts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ideas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">The Concepts</h1>
+          <p class="lead text-muted"></p>
+          <p>
+
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="album py-5 bg-light">
+      <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 photo">
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="img1">
+                <img id="pro" class="image"
+                  src="https://thumbs-prod.si-cdn.com/uB-j9hC3cqjVqBC7eoYskR-UidY=/800x600/filters:no_upscale()/https://public-media.si-cdn.com/filer/04/8e/048ed839-a581-48af-a0ae-fac6fec00948/gettyimages-168346757_web.jpg"
+                  alt="sorry" onclick="togglepopup()" height="225">
+                <div class="hovertext">
+                  <p style="margin-left: 50px;">PROJ NAME--CLIENT</p>
+                </div>
+              </div>
+
+
+              <div class="card-body">
+
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="img1">
+                <img class="image"
+                  src="https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/6/2017/11/04133712/waterfall.jpg"
+                  alt="sorry" onclick="togglepopup2()" height="225">
+                <div class="hovertext">
+                  <p style="margin-left: 50px;">PROJ NAME--CLIENT</p>
+                </div>
+              </div>
+
+
+              <div class="card-body">
+
+                <div class="d-flex justify-content-between align-items-center">
+
+                  <small class="text-muted"></small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <div class="img1">
+                <img class="image" src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg"
+                  alt="sorry" onclick="togglepopup3()" height="225">
+                <div class="hovertext">
+                  <p style="margin-left: 50px;">PROJ NAME--CLIENT</p>
+                </div>
+              </div>
+
+
+              <div class="card-body">
+
+                <div class="d-flex justify-content-between align-items-center">
+
+                  <small class="text-muted"></small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="box2" id="box3">
+          <div class="overlay">
+
+          </div>
+          <div class="content">
+            <div class="close">
+
+              <h3 class="topic">The summer Tale</h3>
+              <div class="close-btn" onclick="togglepopup()">&times;</div>
+            </div>
+
+            <div class="img2">
+              <img style="height: 150px;"
+                src="https://thumbs-prod.si-cdn.com/uB-j9hC3cqjVqBC7eoYskR-UidY=/800x600/filters:no_upscale()/https://public-media.si-cdn.com/filer/04/8e/048ed839-a581-48af-a0ae-fac6fec00948/gettyimages-168346757_web.jpg"
+                alt="sorry" class="img-fluid">
+            </div>
+            <div class="boxlow">
+              <div class="overview">
+                <h2>Oveview</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex vel commodi unde, minus magnam,
+                  fuga
+                  iure molestiae, blanditiis quod eveniet corporis nam totam quas quia autem quasi labore
+                  reiciendis? Magni?</p>
+              </div>
+              <div class="client">
+                <h2>client name</h2>
+                <p>Lorem, ipsum dolor.</p>
+              </div>
+              <div class="url">project url</div>
+              <div class="rcon">
+                <div class="head2">
+                  <h2>Related Concept</h2>
+                </div>
+                <div class="picture">
+                  <img class="bag"
+                    src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg" alt="sorry"
+                    onclick="togglepopup3()">
+
+                  <img class="bag" 
+                    src="https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/6/2017/11/04133712/waterfall.jpg"
+                    alt="sorry" onclick="togglepopup2()">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box2" id="box4">
+          <div class="overlay">
+
+          </div>
+          <div class="content">
+            <div class="close">
+
+              <h3 class="topic">The summer Tale</h3>
+              <div class="close-btn" onclick="togglepopup2()">&times;</div>
+            </div>
+            <div class="img2">
+              <img style="height: 150px; margin-top: 10px;"
+                src="https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/6/2017/11/04133712/waterfall.jpg"
+                alt="sorry">
+            </div>
+            <div class="boxlow">
+              <div class="overview">
+                <h2>Oveview</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex vel commodi unde, minus magnam,
+                  fuga iure molestiae, blanditiis quod eveniet corporis nam totam quas quia autem quasi labore
+                  reiciendis? Magni?</p>
+              </div>
+              <div class="client">
+                <h2>client name</h2>
+                <p>Lorem, ipsum dolor.</p>
+              </div>
+              <div class="url">
+                <h2>Project URL</h2>
+              </div>
+              <div class="rcon">
+                <div class="head2">
+                  <h2>Related Concept</h2>
+                </div>
+                <div class="picture">
+                  <img class="bag"  
+                    src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg" alt="sorry"
+                    onclick="togglepopup3()">
+
+                  <img class="bag"  
+                    src="https://thumbs-prod.si-cdn.com/uB-j9hC3cqjVqBC7eoYskR-UidY=/800x600/filters:no_upscale()/https://public-media.si-cdn.com/filer/04/8e/048ed839-a581-48af-a0ae-fac6fec00948/gettyimages-168346757_web.jpg"
+                    alt="sorry" onclick="togglepopup()">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box2" id="box5">
+          <div class="overlay">
+
+          </div>
+          <div class="content">
+            <div class="close">
+
+              <h3 class="topic">The summer Tale</h3>
+              <div class="close-btn" onclick="togglepopup3()">&times;</div>
+            </div>
+            <div class="img2">
+              <img style="height: 150px;" src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg"
+                alt="sorry">
+            </div>
+            <div class="boxlow">
+              <div class="overview">
+                <h2>Oveview</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex vel commodi unde, minus magnam,
+                  fuga
+                  iure molestiae, blanditiis quod eveniet corporis nam totam quas quia autem quasi labore
+                  reiciendis? Magni?</p>
+              </div>
+              <div class="client">
+                <h2>client name</h2>
+                <p>Lorem, ipsum dolor.</p>
+              </div>
+              <div class="url">project url</div>
+              <div class="rcon">
+                <div class="head2">
+                  <h2>Related Concept</h2>
+                </div>
+                <div class="picture">
+                  <img class="bag"  
+                    src="https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/6/2017/11/04133712/waterfall.jpg"
+                    alt="sorry" onclick="togglepopup2()">
+
+                  <img class="bag" 
+                    src="https://thumbs-prod.si-cdn.com/uB-j9hC3cqjVqBC7eoYskR-UidY=/800x600/filters:no_upscale()/https://public-media.si-cdn.com/filer/04/8e/048ed839-a581-48af-a0ae-fac6fec00948/gettyimages-168346757_web.jpg"
+                    alt="sorry" onclick="togglepopup()">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </main>
+  <footer class="text-muted py-5">
+    <div class="container">
+      <p class="float-end mb-1">
+        <a class="btn btn-primary" href="#" role="button">privacy policy</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    function togglepopup() {
+      document.getElementById("box3").classList.toggle("active");
+    }
+
+    function togglepopup2() {
+      document.getElementById("box4").classList.toggle("active");
+    }
+
+    function togglepopup3() {
+      document.getElementById("box5").classList.toggle("active");
+    }
+  </script>
+
+
+
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
